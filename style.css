@@ -1,0 +1,463 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F5F5F5;
+  overflow-x: hidden;
+}
+header{
+  width: 98vw;
+  height: 50vh;
+  position: relative;
+  background-color: #3944F7;
+  top: 5px;
+  left: 5px;
+}
+nav{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+
+}
+a{
+  list-style: none;
+  color: #fff;
+  font-size: 0.8rem;
+  margin-right: 10px;
+  cursor: pointer;
+
+}
+.logo{
+  position: relative;
+  width: 70px;
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.header-text{
+  position: relative;
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.header-text > h2 {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #fff;
+}
+.header-text > p{
+  margin-top: 10px;
+  font-size: 0.7rem;
+  color: #fff;
+}
+.header-image{
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 300px;
+  height: 270px;
+  object-fit: cover;
+  border-bottom-left-radius: 30px;
+  border-top-left-radius: 30px;
+}
+.companies{
+  position: relative;
+  width: 30%;
+  top: 6px;
+  left: 5%;
+  display: flex;
+  flex-direction: row;
+}
+.company-items{
+  font-family: 'Popins',sans-serif;
+  color: black;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+.api{
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  top: 20px;
+}
+.api-heading{
+  font-size: 1.1rem;
+  position: relative;
+  left: 5%;
+  margin-bottom: 5px;
+}
+.cards{
+  display: flex;
+  width: 90vw;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  left: 5%;
+}
+.card ,.card-active{
+  width: 200px;
+  height: 150px;
+  cursor: pointer;
+}
+.card-active{
+  padding-left: 10px;
+  padding-top: 10px;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.card{
+  padding-top: 10px;
+}
+.card >img{
+  width: 30px;
+}
+.card-active > img{
+  width: 30px;
+}
+.card-active >h3{
+  margin-top: 5px;
+  font-size: 0.7rem;
+}
+.card > h3{
+  margin-top: 5px;
+  font-size: 0.7rem;
+}
+.card >p{
+  margin-top: 5px;
+  font-size: 0.5rem;
+}
+.card-active > p{
+  margin-top: 5px;
+  font-size: 0.5rem;
+}
+.blog-heading{
+  position: relative;
+  left: 5%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.blog-heading >h1{
+  font-size: 1.3rem;
+}
+.blog-cards{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 5%;
+  width: 93vw;
+  height: 47vh;
+}
+.blog-card{
+  height: 260px;
+    width: 550px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 70px 10px 10px 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-right: 50px;
+}
+.blog-image{
+  width: 250px;
+  height: 260px;
+}
+
+.blog-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+.blog-content >h3{
+  margin-top: 10px;
+  font-size: 0.8rem;
+  margin-bottom: 10px;
+}
+.blog-content > small{
+  font-size: 0.5rem;
+}
+.blog-author{
+  margin-left: 10px;
+}
+.blog-bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.faq-section{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  height:250px;
+  background-color: #E9EDFF;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.left-img{
+  position: absolute;
+  right: 0;
+   width: 400px; 
+  height: 250px;
+}
+.faq-content{
+  position: relative;
+  left: 5%;
+  margin-top: 20px;
+}
+.faq-content >h5{
+  margin-top: 10px;
+  font-size: 0.6rem;
+  margin-bottom: 10px;
+}
+.faq-content >h4{
+  font-size: 0.9rem;
+}
+.faq-btn{
+  margin-top: 20px;
+  background: #5A31FC;
+    border-radius: 3px;
+    color: white;
+    border: none;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    border:  2px solid transparent;
+}
+.faq-btn:hover{
+  background-color: transparent;
+  color: #3944F7;
+  border: 2px solid #3944F7;
+}
+
+.download-section{
+  margin-top: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.download-content h1{
+  font-size: 40px;
+}
+.download-content span{
+  font-size: 30px;
+}
+form {
+  border:2px solid grey;
+  border-radius: 22px;
+  padding:2px;
+  background-color: #E9EDFF;
+}
+input {
+  border:none;
+  width: 200px;
+  background-color: transparent;
+  text-align: center;
+}
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 5px 10px;
+  color:white;
+  border-radius: 20px;
+  border: none;
+  background-color: #5A31FC;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+  border:  1px solid transparent;
+}
+button:hover{
+  background-color: transparent;
+  color: #3944F7;
+  border:  1px solid #3944F7;
+}
+.footer-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #3C0AFE;
+  height: 225px;
+}
+.footer-logo{
+  position: relative;
+  left: 40px;
+}
+.list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  color: #fff;
+  position: relative;
+  margin-top: 10px;
+  left: 30px;
+}
+.list-items{
+  font-size: 0.7rem;
+  margin-inline-start: 20px;
+  cursor: pointer;
+}
+.logos-list{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  position: relative;
+  right: 40px;
+  color: #fff;
+  margin-top: 10px;
+}
+.footer-right{
+  position: relative;
+  right: 30px;
+}
+.footer-logos{
+  margin-inline-start: 10px;
+  cursor: pointer;
+}
+
+/* media query section  */
+@media only screen and (max-width:1030px) {
+
+  .blog-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+  }
+  .blog-card{
+    margin-bottom: 10px;
+  }
+  .left-img{
+     width: 200px; 
+  }
+}
+@media only screen and (max-width:670px) {
+  .api{
+    height: 55vh;
+  }
+  .header-image{
+    width: 250px;
+  }
+}
+@media only screen and (max-width:580px){
+  input{
+    width: 100px;
+  }
+  .left-img{
+    width: 150px; 
+ }
+}
+@media only screen and (max-width:500px){
+  .list{
+    left: 20px;
+  }
+  .list-items{
+    margin-inline-start: 10px;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+  .header-image{
+    width: 200px;
+  }
+  .nav-d{
+    display: none;
+  }
+  .blog-card{
+    width: 500px;
+    display: flex;
+  }
+  .input{
+    width: 70px;
+  }
+  button {
+    padding: 5px 8px;
+  }
+  .faq-content >h5{
+    font-size: 0.5rem;
+  }
+  .faq-content >h4{
+    font-size: 0.8rem;
+  }
+  .download-content h1{
+    font-size: 30px;
+  }
+  .download-content span{
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width:450px){
+  .api{
+    height: 90vh;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+  margin-bottom: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-left: 10px;
+}
+.card-active{
+  border: 1px solid blue;
+  margin-bottom: 10px;
+  box-shadow: rgba(36, 30, 128, 0.35) 0px 5px 15px;
+}
+}
+@media only screen and (max-width:400px){
+  .api{
+    height: 100vh;
+  }
+  .header-image{
+    width: 160px;
+    object-fit: cover;
+    object-position: right;
+  }
+  .blog-card{
+    width: 450px;
+  }
+  .left-img{
+    width: 110px;
+    height: 250px;
+  }
+  .blog-cards{
+    height: 65vh;
+  }
+  form{
+    display: flex;
+    flex-direction: row;
+  }
+
+}
+@media only screen and (max-width:380px){
+  .api{
+    height: 130vh;
+  }
+  .blog-cards{
+    height: 80vh;
+  }
+}
