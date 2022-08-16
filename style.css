@@ -409,7 +409,7 @@ button:hover{
 }
 @media only screen and (max-width:450px){
   .api{
-    height: 90vh;
+    height: 95vh;
   }
   .cards {
     display: flex;
@@ -430,7 +430,7 @@ button:hover{
 }
 @media only screen and (max-width:400px){
   .api{
-    height: 100vh;
+    height: 105vh;
   }
   .header-image{
     width: 160px;
